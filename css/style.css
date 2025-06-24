@@ -24283,7 +24283,7 @@ html[data-mode="dark"] .dropdown-menu .dropdown-item .dropdown-item-icon.icon-in
   display: flex;
   flex-direction: column;
   border: none;
-  height: 92%;
+  height: 100%;
   width: 100%;
   padding: 0;
   background-color: var(--color-base-bg-2);
@@ -24376,7 +24376,39 @@ html[data-mode='dark'] .summary .summary-external {
 
 @media (max-width: 768px) {
   .summary .summary-categories .summary-category {
-    margin-top: 0.1rem; } }
+    margin-top: 0.63rem; } }
+
+@media (max-width: 768px) {
+  .strip {
+    padding-top: 55px; } }
+
+@media (max-width: 360px) {
+  .summary .summary-content {
+    width: 95%; } }
+
+@media (max-width: 576px) {
+  .summary .summary-content {
+    padding: 25px 25px; } }
+
+@media (max-width: 576px) {
+  .summary {
+    width: 100%; } }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .summary .summary-content {
+    padding: 25px 25px; } }
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .strip {
+    padding-top: 55px; } }
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .strip {
+    padding-top: 60px; } }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .summary .summary-categories .summary-category {
+    margin-top: 0.63rem; } }
 
 @media (max-width: 768px) {
   .summary {
