@@ -10,23 +10,23 @@
     <atom:link href="https://cadamese.github.io/proyectos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Selected Credits</title>
-      <link>https://cadamese.github.io/proyectos/seleccionados/</link>
+      <link>https://cadamese.github.io/credits/</link>
       <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://cadamese.github.io/proyectos/seleccionados/</guid>
+      <guid>https://cadamese.github.io/credits/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;images/auguras-pipiras-5sAth6WOA44-unsplash.jpg&#34; alt=&#34;Photo of product 1&#34;&gt;&#xA;&lt;img src=&#34;images/auguras-pipiras-exd7flgBpBw-unsplash.jpg&#34; alt=&#34;Photo of product 2&#34;&gt;&#xA;&lt;img src=&#34;images/auguras-pipiras-dbdBY9NEMMk-unsplash.jpg&#34; alt=&#34;Photo of product 3&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;As a designer at Big corp, my role is to create visually stunning and user-friendly experiences for a wide range of Big corp products and services. I work closely with cross-functional teams, utilizing my design skills and knowledge of Big corp&amp;rsquo;s design principles to drive innovation and develop new ideas. My job involves conceptualizing and prototyping ideas, iterating on designs, and presenting my work to stakeholders. To excel in this role, I stay up-to-date on the latest design trends and technologies, and apply them in a way that aligns with Big corp&amp;rsquo;s brand and values. Overall, I take great pride in contributing to the legacy of elegant and intuitive design that is synonymous with Big corp.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Beat Creation</title>
-      <link>https://cadamese.github.io/proyectos/beat-creation/</link>
+      <link>https://cadamese.github.io/beat-creation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cadamese.github.io/proyectos/beat-creation/</guid>
+      <guid>https://cadamese.github.io/beat-creation/</guid>
       <description></description>
     </item>
     <item>
       <title>Gallery</title>
-      <link>https://cadamese.github.io/proyectos/gallery/</link>
+      <link>https://cadamese.github.io/gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cadamese.github.io/proyectos/gallery/</guid>
+      <guid>https://cadamese.github.io/gallery/</guid>
       <description></description>
     </item>
   </channel>
