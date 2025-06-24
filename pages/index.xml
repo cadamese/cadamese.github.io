@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Mendy Big</title>
+    <link>//localhost:1313/pages/</link>
+    <description>Recent content in Pages on Mendy Big</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Nov 2018 15:15:34 +1000</lastBuildDate>
+    <atom:link href="//localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>//localhost:1313/contact/</link>
+      <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
+      <guid>//localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Fill out the form below and I’ll get back to you soon.&lt;/p&gt;&#xA;&lt;form action=&#34;https://formspree.io/f/xovwkprb&#34; method=&#34;POST&#34;&gt;&#xA;  &lt;label for=&#34;name&#34;&gt;Your Name:&lt;/label&gt;&lt;br /&gt;&#xA;  &lt;input type=&#34;text&#34; id=&#34;name&#34; name=&#34;name&#34; required&gt;&lt;br /&gt;&lt;br /&gt;&#xA;&lt;p&gt;&lt;label for=&#34;email&#34;&gt;Your Email:&lt;/label&gt;&lt;br /&gt;&#xA;&lt;input type=&#34;email&#34; id=&#34;email&#34; name=&#34;email&#34; required&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;label for=&#34;message&#34;&gt;Message:&lt;/label&gt;&lt;br /&gt;&lt;/p&gt;&#xA;  &lt;textarea id=&#34;message&#34; name=&#34;message&#34; rows=&#34;5&#34; required&gt;&lt;/textarea&gt;&lt;br /&gt;&lt;br /&gt;&#xA;&lt;p&gt;&lt;button type=&#34;submit&#34;&gt;Send&lt;/button&gt;&lt;/p&gt;&#xA;&lt;/form&gt;&#xA;&lt;script&gt;&#xA;  const form = document.querySelector(&#34;form&#34;);&#xA;  const success = document.createElement(&#34;p&#34;);&#xA;&#xA;  form.addEventListener(&#34;submit&#34;, async function (e) {&#xA;    e.preventDefault();&#xA;&#xA;    const formData = new FormData(form);&#xA;&#xA;    const response = await fetch(form.action, {&#xA;      method: form.method,&#xA;      body: formData,&#xA;      headers: {&#xA;        &#39;Accept&#39;: &#39;application/json&#39;&#xA;      }&#xA;    });&#xA;&#xA;    if (response.ok) {&#xA;      form.reset();&#xA;      success.textContent = &#34;Your message has been sent successfully!&#34;;&#xA;      success.style.color = &#34;green&#34;;&#xA;      success.style.marginTop = &#34;10px&#34;;&#xA;      form.appendChild(success);&#xA;    } else {&#xA;      success.textContent = &#34;Something went wrong. Please try again.&#34;;&#xA;      success.style.color = &#34;red&#34;;&#xA;      success.style.marginTop = &#34;10px&#34;;&#xA;      form.appendChild(success);&#xA;    }&#xA;  });&#xA;&lt;/script&gt;</description>
+    </item>
+  </channel>
+</rss>

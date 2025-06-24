@@ -1,0 +1,132 @@
+
+
+#waveform-container {
+  background: #fafafa;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  padding: 2rem;
+  margin: 5rem auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+#waveform {
+  margin-bottom: 1rem;
+}
+
+#play-button {
+  background-color: #888;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#play-button:hover {
+  background-color: #666;
+}
+
+#volume-container {
+  margin-top: 1rem;
+ font-weight: 600;
+  font-size: 1rem;
+  margin-right: 0rem;
+  color: #000;
+}
+
+#volume-slider {
+  width: 60px;
+accent-color: #777;
+  height: 6px;
+  border-radius: 3px;
+  outline: none;
+}
+
+#mix-master-indicator {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+font-size: 18px;
+  font-family: sans-serif;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #00e676;
+  transition: background-color 0.3s;
+}
+
+
+/* 🎚️ Estilo personalizado para el volumen slider */
+input[type="range"] {
+  accent-color: #666; /* Color personalizado (rosa neón en este ejemplo) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.waveform-title {
+  text-align: center;
+  font-size: 1.5rem !important;
+  margin-bottom: -4.5rem !important;
+  font-weight: 600 !important; /* Negrita */
+margin-top: 7rem !important;  
+color: #000;
+}
+
+[data-mode="dark"] .waveform-title {
+  color: #fff; /* Si quieres que se mantenga negro en modo oscuro */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#play-button {
+  background-color: #a2a2a3; /* verde moderno */
+  border: none;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#play-button:hover {
+  background-color: #545454;
+  transform: scale(1.05);
+}
+
+
