@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mendy Big</title>
-    <link>//localhost:1313/categories/</link>
+    <link>https://cadamese.github.io/categories/</link>
     <description>Recent content in Categories on Mendy Big</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cadamese.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mastering</title>
-      <link>//localhost:1313/categories/mastering/</link>
+      <link>https://cadamese.github.io/categories/mastering/</link>
       <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/mastering/</guid>
+      <guid>https://cadamese.github.io/categories/mastering/</guid>
       <description></description>
     </item>
     <item>
       <title>Mixing</title>
-      <link>//localhost:1313/categories/mixing/</link>
+      <link>https://cadamese.github.io/categories/mixing/</link>
       <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/mixing/</guid>
+      <guid>https://cadamese.github.io/categories/mixing/</guid>
       <description></description>
     </item>
     <item>
       <title>Producer</title>
-      <link>//localhost:1313/categories/producer/</link>
+      <link>https://cadamese.github.io/categories/producer/</link>
       <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/producer/</guid>
+      <guid>https://cadamese.github.io/categories/producer/</guid>
       <description></description>
     </item>
     <item>
       <title>Certificates</title>
-      <link>//localhost:1313/categories/certificates/</link>
+      <link>https://cadamese.github.io/categories/certificates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/certificates/</guid>
+      <guid>https://cadamese.github.io/categories/certificates/</guid>
       <description></description>
     </item>
     <item>
       <title>Hip-Hop</title>
-      <link>//localhost:1313/categories/hip-hop/</link>
+      <link>https://cadamese.github.io/categories/hip-hop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/hip-hop/</guid>
+      <guid>https://cadamese.github.io/categories/hip-hop/</guid>
       <description></description>
     </item>
     <item>
       <title>Reggaeton</title>
-      <link>//localhost:1313/categories/reggaeton/</link>
+      <link>https://cadamese.github.io/categories/reggaeton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/reggaeton/</guid>
+      <guid>https://cadamese.github.io/categories/reggaeton/</guid>
       <description></description>
     </item>
     <item>
       <title>Sessions</title>
-      <link>//localhost:1313/categories/sessions/</link>
+      <link>https://cadamese.github.io/categories/sessions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/sessions/</guid>
+      <guid>https://cadamese.github.io/categories/sessions/</guid>
       <description></description>
     </item>
     <item>
       <title>Trap</title>
-      <link>//localhost:1313/categories/trap/</link>
+      <link>https://cadamese.github.io/categories/trap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/categories/trap/</guid>
+      <guid>https://cadamese.github.io/categories/trap/</guid>
       <description></description>
     </item>
   </channel>
