@@ -24384,7 +24384,7 @@ html[data-mode='dark'] .summary .summary-external {
 
 @media (max-width: 360px) {
   .summary .summary-content {
-    width: 95%; } }
+    width: 100%; } }
 
 @media (max-width: 576px) {
   .summary .summary-content {
