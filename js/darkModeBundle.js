@@ -26,18 +26,26 @@ function toggleDarkMode() {
 
 function initDarkMode() {
     let darkMode = localStorage.getItem('darkMode');
+
     if (darkMode === 'true') {
+        document.documentElement.setAttribute('data-mode', 'dark');
         darkModeSwitches.forEach((item) => item.classList.add('dark'));
         return;
     }
+
     if (darkMode === 'false') {
+        document.documentElement.setAttribute('data-mode', 'light');
         darkModeSwitches.forEach((item) => item.classList.add('light'));
         return;
     }
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.documentElement.setAttribute('data-mode', 'dark');
-        darkModeSwitches.forEach((item) => item.classList.add('dark'));
-    }
+
+    // Si no hay valor guardado, usar el del sistema y guardarlo
+    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-mode', systemPrefersDark ? 'dark' : 'light');
+    localStorage.setItem('darkMode', systemPrefersDark ? 'true' : 'false');
+    darkModeSwitches.forEach((item) =>
+        item.classList.add(systemPrefersDark ? 'dark' : 'light')
+    );
 }
 
 initDarkMode();
