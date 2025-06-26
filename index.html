@@ -1,26 +1,5 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
-
-<script>
-  (function () {
-    try {
-      const prefersDark = localStorage.getItem('darkMode');
-      if (prefersDark === 'true') {
-        document.documentElement.setAttribute('data-mode', 'dark');
-      } else if (prefersDark === 'false') {
-        document.documentElement.setAttribute('data-mode', 'light');
-      } else {
-        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        document.documentElement.setAttribute('data-mode', systemPrefersDark ? 'dark' : 'light');
-        localStorage.setItem('darkMode', systemPrefersDark ? 'true' : 'false');
-      }
-    } catch (e) {
-      console.warn('Dark mode init failed:', e);
-    }
-  })();
-</script>
-
-
 <html lang="en">
 
 <head>
@@ -78,7 +57,7 @@
 
 </head>
 
-<body class='page page-home'>
+<body class='page layout- page-home'>
 
     
         <div class="menu-main-mobile" id="menu-main-mobile">
@@ -365,13 +344,11 @@
                     <div class="col-12 col-md-6 col-lg-4 mb-3">
                         <div class="summary ">
     
-        <a href="https://mendybig.com/credits/" aria-label="Selected Credits" class="summary-link"></a>
+        <a href="https://cadamese.github.io/credits/" aria-label="Selected Credits" class="summary-link"></a>
     
     <div class="summary-content">
       
         <span class="summary-external">
-            
-                <img  width="16" height="16" alt="external link" src="/images/ui/icons8-up-right-50.png" />
             
         </span>
     
@@ -417,13 +394,11 @@
                     <div class="col-12 col-md-6 col-lg-4 mb-3">
                         <div class="summary ">
     
-        <a href="https://mendybig.com/beat-creation/" aria-label="Beat Creation" class="summary-link"></a>
+        <a href="https://cadamese.github.io/beat-creation/" aria-label="Beat Creation" class="summary-link"></a>
     
     <div class="summary-content">
       
         <span class="summary-external">
-            
-                <img  width="16" height="16" alt="external link" src="/images/ui/icons8-up-right-50.png" />
             
         </span>
     
@@ -447,7 +422,7 @@
 
     
         <div class="summary-description">
-            <p></p>
+            <p>A selection of beats I’ve produced.</p>
         </div>
         
         <div class="summary-categories mt-auto">
@@ -467,13 +442,11 @@
                     <div class="col-12 col-md-6 col-lg-4 mb-3">
                         <div class="summary ">
     
-        <a href="https://mendybig.com/gallery/" aria-label="Gallery" class="summary-link"></a>
+        <a href="https://cadamese.github.io/gallery/" aria-label="Gallery" class="summary-link"></a>
     
     <div class="summary-content">
       
         <span class="summary-external">
-            
-                <img  width="16" height="16" alt="external link" src="/images/ui/icons8-up-right-50.png" />
             
         </span>
     

@@ -1,26 +1,5 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
-
-<script>
-  (function () {
-    try {
-      const prefersDark = localStorage.getItem('darkMode');
-      if (prefersDark === 'true') {
-        document.documentElement.setAttribute('data-mode', 'dark');
-      } else if (prefersDark === 'false') {
-        document.documentElement.setAttribute('data-mode', 'light');
-      } else {
-        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        document.documentElement.setAttribute('data-mode', systemPrefersDark ? 'dark' : 'light');
-        localStorage.setItem('darkMode', systemPrefersDark ? 'true' : 'false');
-      }
-    } catch (e) {
-      console.warn('Dark mode init failed:', e);
-    }
-  })();
-</script>
-
-
 <html lang="en">
 
 <head>
@@ -77,7 +56,7 @@
 
 </head>
 
-<body class='page page-default-single'>
+<body class='page layout-proyectos page-default-single'>
 
     
         <div class="menu-main-mobile" id="menu-main-mobile">
@@ -301,7 +280,7 @@
                         <p></p>
                     </div>
 
-                    
+
 
                     
                 </div>
@@ -351,7 +330,7 @@
         
         
         
-        <script type="text/javascript" src="/js/darkModeBundle.min.052861fd74b79644efa652fdc73c6ae42ca037240ed870d50781ad9ac4e787d5.js"></script>
+        <script type="text/javascript" src="/js/darkModeBundle.min.2776fe9b08af66b2cf442bb773650c95d309d9a7e090a694b6fcc806594c9b20.js"></script>
         
     
 
