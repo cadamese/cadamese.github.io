@@ -25412,4 +25412,7 @@ form button[type="submit"]:hover {
   form button[type="submit"] {
     width: 100%; } }
 
+body.page-credits h1:not(.credits-heading) {
+  display: none !important; }
+
 /*# sourceMappingURL=style.css.map */
