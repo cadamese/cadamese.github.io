@@ -1,4 +1,3 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://mendybig.com/sitemap.xml
+Disallow: /pages/
+Disallow: /proyectos/
